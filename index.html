@@ -1,12 +1,97 @@
-<!DOCTYPE html>
+	`<!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
-
+    <header class="main-header">
+	  <nav class="main-navigation">
+	  <a class="main-header-logo">
+	    <img src="photo" width="100" height="100" alt="Логотип магазина Глейси">
+	  </a>
+	  <ul class="site-navigation">
+	    <li><a href="catalog.html">Каталог</a></li>
+		<li><a href="delivery-payment.html">Доставка и оплата</a></li>
+		<li><a href="company">О компании</a></li>
+	  </ul>
+	  <ul class="user-navigation">
+	    <li><a class="search-button" href="search.html">Поиск</a></li>
+		<li><a href="login-link">Вход</a></li>
+		<li><a href="basket">Пусто</a></li>
+	  </ul>
+	  </nav>
+	</header>
+	<main class="container">
+	  <h1 class="visually-hidden">Онлайн- и оффлайн-магазин Глейси</h1>
+	  <section class="features">
+	    <h2 class="visually-hidden">Преимущества</h2>
+		<b>Магазин Глейси - это онлайн- и оффлайн-магазин по продаже мороженого собственного производства на развес</b>
+		<ul class="features-list">
+		  <li class="feature-item">
+		    <img src="#" width="70" height="70" art="мороженка">
+			Всё наше мороженое изготавливается на собственном производстве, 
+			с использованием современного оборудования и проверенных временем технологий.
+		  </li>
+		  <li>
+		    <img src="#" width="70" height="70" art="листок">
+			Для приготовления мороженого используются настоящие сливки и молоко высокого качества.
+			Все дополнительные ингридиенты и добавки произведены из натурального, 
+			экологически чистого сырья.
+		  </li>
+		  <li>
+		    <img src="#" width="70" height="70" art="корова">
+			Закупка ингридиентов проводится только у проверенных фермерских хозяйств и компаний,
+			с которыми нас связывает долговременное сотрудничество.
+		  </li>
+		  <li>
+		    <img src="#" width="70" height="70" art="термометр">
+			Доставка нашего мороженого до заказчиков осуществляется в специальном термопакете,
+			который не даёт мороженому растаять в пути и позволяет сохранить превосходный вкус.
+		  </li>
+		</ul>
+	  </section>
+	  
+	  <section class="news">
+	    <h2>Новое в нашем блоке</h2>
+		<b><a class="news-item" href="new.html">10 способов сервировки щербетов к столу</a></b>
+	  </section>
+	  
+	  <section class="subscription">
+	    <h2 class="visually-hidden">Подписка</h2>
+		<p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного,
+		что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)
+		</p>
+		
+		<b><a class="button subscription-button">Отправить</a></b>
+	  </section>
+	</main>
+	<footer class="main-footer">
+	  <ul>
+	    <li><a class="social-button" href="#">Твиттер</a>
+		</li>
+		<li><a class="social-button" href="#">Инстаграмм</a>
+		</li>
+		<li><a class="social-button" href="#">Фейсбук</a>
+		</li>
+		<li><a class="social-button" href="#">ВКонтакте</a>
+		</li>
+	  </ul>
+	  <ul>
+	    <img src="heart.jpg" width="50" height="50">
+	    <li><b><a href="#">Для поставщиков</a></b>
+		</li>
+		<li><a href="#">О производстве</a>
+		</li>
+		<li><a href="#">Наши документы</a>
+		</li>
+		<li><a href="#">Экологические стандарты</a>
+		</li>
+	  </ul>
+	  <p class="footer-copyright">
+	    <img src="logo.jpg" width="50" height="50" art="Логотип HTML Академии">
+		Сделано в HTML Academy 2017
+	  </p>
+	</footer>
   </body>
 </html>
